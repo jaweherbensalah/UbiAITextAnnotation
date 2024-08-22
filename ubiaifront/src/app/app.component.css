@@ -1,0 +1,108 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  background-color: #00a97f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.label-input {
+  margin-bottom: 20px;
+}
+
+
+.tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.document-container {
+  margin-top: 20px;
+}
+
+.document-text {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+
+.tags-container input {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  .tag:hover {
+    opacity: 0.8;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+
+  
+  .actions button:hover {
+    background-color: #218838;
+  }
+  
+
+  .annotation {
+    display: inline-block;
+    background-color: #00a97f; /* Example color, to be dynamically set */
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.annotation-label {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 2px 2px;
+    margin-left: 5px; /* Adjust spacing between text and label */
+}

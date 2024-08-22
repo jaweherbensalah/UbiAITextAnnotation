@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div class="actions">
+    <button (click)="exportToJson()">Export Annotations</button>
+  </div>
+
+  
+  <div class="label-input">
+    <div class="tags-container">
+      <div class="tag" *ngFor="let label of labels | keyvalue" 
+           [ngStyle]="{ 'background-color': label.value }"
+           (click)="selectLabel(label.key)">
+        {{ label.key }}
+      </div>
+      <input [(ngModel)]="newLabel" 
+             (keydown.enter)="addLabel()" 
+             placeholder="Enter new label" />
+    </div>
+  </div>
+
+
+  <div class="document-container">
+
+    <div class="document-text" [innerHTML]="documentText" (click)="selectText($event)"></div>
+  </div>
+</div>

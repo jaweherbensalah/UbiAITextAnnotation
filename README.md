@@ -8,13 +8,13 @@ This project is a text annotation tool built using Angular for the frontend and 
 
 - **Label Management:** Users can input and select labels.
 - **Document Annotation:** Select a word or sentence from the document and annotate it with a chosen label.
-    ![image](https://github.com/user-attachments/assets/88817f06-9d20-4603-8fc6-9bb9354ec056)
+    ![image](https://raw.githubusercontent.com/jaweherbensalah/UbiAITextAnnotation/master/annotated_text.png)
   
 - **JSON Export:** Export the annotations with label positions and titles to a JSON file.
 - 
     ![image](https://github.com/user-attachments/assets/5d96f23d-465c-4fdd-a18e-c78d39327de6)
 
-- **Saving data:** SAve the document and its related annotation data to the backend
+- **Saving data:** Save the document and its related annotation data to the backend.
   ![image](https://github.com/user-attachments/assets/ec12f7ff-7b98-48c1-adc7-55a01d184906)
 
 
